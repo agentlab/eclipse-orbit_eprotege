@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Framework
+Bundle-SymbolicName: org.protege.osgi.framework;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.google.common.base;version="18.0.0",
+ com.google.common.collect;version="18.0.0",
+ org.osgi.framework;version="1.8.0",
+ org.osgi.framework.launch;version="1.2.0",
+ org.osgi.framework.startlevel;version="1.0.0",
+ org.osgi.framework.wiring;version="1.2.0",
+ org.slf4j;version="1.7.2"
+Export-Package: org.protege.osgi.framework,
+ org.protege.osgi.framework.service

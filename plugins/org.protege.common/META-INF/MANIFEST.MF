@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Protege Common
+Bundle-SymbolicName: org.protege.common
+Bundle-Version: 5.0.0.qualifier
+Bundle-Activator: org.protege.common.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: org.slf4j;version="1.7.2"
