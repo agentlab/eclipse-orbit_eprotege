@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EI7oACerEeWxCPrV0pAZQQ" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_KMklcCerEeWxCPrV0pAZQQ" elementId="test.partDescFragment.ASampleE4View" label="Sample View" iconURI="platform:/plugin/org.protege.editor.core.ui/icons/Sample.png" tooltip="" category="Sample Category" contributionURI="bundleclass://org.protege.editor.core.ui/org.protege.editor.core.ui.parts.SampleView">
+      <tags>View</tags>
+      <tags>categoryTag:Sample Category</tags>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_tA2n4F_XEea_J-EmoRJ4zQ" featurename="children" parentElementId="xpath://children[@elementId='org.eclipse.ui.ide.perspwsdectivestack']">
+    <elements xsi:type="advanced:Perspective" xmi:id="_MAA5oF_WEea_J-EmoRJ4zQ" elementId="org.protege.editor.core.ui.perspective.entities" selectedElement="_Y7KKUF_qEeam5cugFRijDQ" label="Entities" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
+      <children xsi:type="basic_1:PartStack" xmi:id="_Y7KKUF_qEeam5cugFRijDQ" elementId="org.protege.editor.core.ui.partstack.0" selectedElement="_aBQ2wF_qEeam5cugFRijDQ">
+        <children xsi:type="basic_1:Part" xmi:id="_aBQ2wF_qEeam5cugFRijDQ" elementId="org.protege.editor.core.ui.part.sampleview" contributionURI="bundleclass://org.protege.editor.core.ui/org.protege.editor.core.ui.parts.SampleView" label="Sample View" iconURI="platform:/plugin/org.protege.editor.core.ui/icons/Sample.png"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

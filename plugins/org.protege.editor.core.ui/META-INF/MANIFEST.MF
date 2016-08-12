@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.protege.editor.core.ui;singleton:=true
+Bundle-Name: Ui
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: javax.inject,
+ org.eclipse.osgi,
+ org.eclipse.jface,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.annotations,
+ org.protege.editor.owl;bundle-version="1.0.0",
+ org.eclipse.ui.navigator;bundle-version="3.6.100",
+ org.eclipse.ui.navigator.resources;bundle-version="3.5.100"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.annotation;version="1.2.0"
+

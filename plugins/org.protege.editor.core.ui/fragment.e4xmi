@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_y6D_YLoOEeGpCLi1m273mw">
+  <imports xsi:type="basic:Part" xmi:id="_Hbhv0GCcEeaw7-Ls1RWo5q" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
+  <imports xsi:type="basic:Part" xmi:id="_OlrjMGC5EeagguA8D0a28A" elementId="org.eclipse.ui.views.ResourceNavigator"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_18RMILoOEeGpCLi1m273mw" featurename="snippets" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="advanced:Perspective" xmi:id="_eQFFIFP4EeaszJGFnlBYaQ" elementId="de.bahntechnik.dd.opn.ui.perspective.testxxx" selectedElement="_m6WGkFP4EeaszJGFnlBYaQ" label="Test XXX" iconURI="platform:/plugin/org.protege.editor.owl/resources/Classes.gif">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_m6WGkFP4EeaszJGFnlBYaQ" elementId="de.bahntechnik.dd.opn.ui.partsashcontainer.1" selectedElement="_nrLGkFP4EeaszJGFnlBYaQ" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_BN-7YGCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.partstack.1" selectedElement="_nSrP8GCOEeaw7-Ls1RWo5w">
+          <children xsi:type="advanced:Placeholder" xmi:id="_rOu10GCOEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView1" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_nSrP8GCOEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView2" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_eVnG8GCREeaw7-Ls1RWo5w" elementId="org.eclipse.ui.navigator.ProjectExplorer.placeholder" ref="_Hbhv0GCcEeaw7-Ls1RWo5q" closeable="true"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_MhbzgGC5EeagguA8D0a28A" elementId="org.protege.editor.core.ui.placeholder.0" ref="_OlrjMGC5EeagguA8D0a28A" closeable="true"/>
+        </children>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_nrLGkFP4EeaszJGFnlBYaQ" elementId="de.bahntechnik.dd.opn.ui.partsashcontainer.2" selectedElement="_yCEK0GCOEeaw7-Ls1RWo5w">
+          <children xsi:type="basic:PartStack" xmi:id="_yCEK0GCOEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.partstack.0" selectedElement="_uQGzMFP4EeaszJGFnlBYaQ">
+            <children xsi:type="advanced:Placeholder" xmi:id="_uQGzMFP4EeaszJGFnlBYaQ" elementId="org.protege.editor.core.ui.parts.SampleView3" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_lFZgEGCOEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView4" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_QkvC8GCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView5" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_Nvt9oGCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.partstack.2">
+            <children xsi:type="advanced:Placeholder" xmi:id="_OU2rAGCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView6" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_U3_n4GCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView7" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_U9fL4GCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView8" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_VCg10GCPEeaw7-Ls1RWo5w" elementId="org.protege.editor.core.ui.parts.SampleView9" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          </children>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HSMw4FS4Eeacy4vmBL0tEQ" featurename="sharedElements" parentElementId="IDEWindow">
+    <elements xsi:type="basic:Part" xmi:id="_VdntwFS4Eeacy4vmBL0tEQ" elementId="org.protege.editor.core.ui.parts.SampleView" contributionURI="bundleclass://org.protege.editor.core.ui/org.protege.editor.core.ui.parts.SampleView" label="SampleView" iconURI="platform:/plugin/org.protege.editor.core.ui/icons/Sample.png" closeable="true"/>
+  </fragments>
+</fragment:ModelFragments>
